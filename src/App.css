@@ -4,9 +4,31 @@ body {
   font-family: 'Lora', serif;
 }
 
+h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+
+a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .item {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+#homeBanner {
+  height: 40rem;
+  background: url('./images/patio.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (min-width: 1200px) {
