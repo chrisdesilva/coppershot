@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import { Container, Image, Menu, Segment } from 'semantic-ui-react'
+import React from 'react'
+import { Container, Image, Menu } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 import coppershotlogo  from '../images/coppershotlogo.png'
 
 const style = {
@@ -11,24 +12,18 @@ const style = {
 
 const Navbar = () => {
 
-  const [ activeItem, setActiveItem] = useState('home')
-
-  const handleSetActive = (e, { name }) => setActiveItem(name)
-
   return (
-    <Segment inverted>
       <Menu fluid widths={8} fixed='top' inverted borderless stackable>
         <Container style={style.container}>
-          <Menu.Item name='home' active={activeItem === 'home'} onClick={handleSetActive} as='a'>Home</Menu.Item>
-          <Menu.Item name='about' active={activeItem === 'about'} onClick={handleSetActive} as='a'>About</Menu.Item>
+          <Menu.Item to='/'><Link to='/'>Home</Link></Menu.Item>
+          <Menu.Item ><Link to='/about'>About</Link></Menu.Item>
           <Menu.Item header>
             <Image size="tiny" src={coppershotlogo} style={{ marginRight: '1.5em' }} />
           </Menu.Item>
-          <Menu.Item name='recipes' active={activeItem === 'recipes'} onClick={handleSetActive} as='a'>Recipes</Menu.Item>
-          <Menu.Item name='contact' active={activeItem === 'contact'} onClick={handleSetActive} as='a'>Contact</Menu.Item>
+          <Menu.Item><Link to='/recipes'>Recipes</Link></Menu.Item>
+          <Menu.Item><Link to='/contact'>Contact</Link></Menu.Item>
         </Container>
       </Menu>
-    </Segment>
   )
 }
 
