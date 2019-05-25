@@ -8,7 +8,7 @@ const Contact = () => {
       <Grid>
         <Grid.Row>
           <Grid.Column width={8}>
-            <Form name="coppershot" method="POST" data-netlify="true">
+            <Form name="coppershot" method="post" data-netlify="true">
               <Form.Input placeholder="Name" required/>
               <Form.Input placeholder="E-mail Address" required/>
               <Form.Input placeholder="Phone Number (optional)"/>
