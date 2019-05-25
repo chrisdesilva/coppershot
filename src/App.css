@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Lora', serif;
+  background-color: #ececec;
 }
 
 h2 {
@@ -24,15 +25,22 @@ a {
 }
 
 #homeBanner {
-  height: 40rem;
-  background: url('./images/patio.jpg');
-  background-size: contain;
+  height: 70vh;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(173, 12, 12, 0.2)), url('./images/lineup.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+#logoBanner {
+  margin: auto;
+}
+
+#navbar {
+  background-color: #CA4A2D;
+  margin-bottom: 5rem;
+}
+
 @media (min-width: 1200px) {
-  body {
-    margin-top: 10rem;
-  }
+
 }
