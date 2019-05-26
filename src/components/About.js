@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Grid, Image } from 'semantic-ui-react'
-import lineup from '../images/lineup.jpg'
+import todees from '../images/todees.jpg'
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={7}>
-            <Image bordered rounded src={lineup} />
+            <Image bordered rounded src={todees} />
           </Grid.Column>
         </Grid.Row>
       </Grid>

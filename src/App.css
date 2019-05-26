@@ -5,6 +5,10 @@ body {
   background-color: #ececec;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
 h2 {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 3rem;
@@ -18,18 +22,17 @@ a {
   letter-spacing: 1px;
 }
 
+.bannerText {
+  color: rgb(0, 0, 0);
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+  border: none;
+}
+
 .item {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
-}
-
-#homeBanner {
-  height: 70vh;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(173, 12, 12, 0.2)), url('./images/lineup.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #logoBanner {
