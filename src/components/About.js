@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Container style={{height: '70vh'}}>
     <h2>About</h2>
-      <Grid>
+      <Grid stackable>
         <Grid.Row>
           <Grid.Column width={8}>
             <p>
