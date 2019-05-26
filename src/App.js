@@ -10,29 +10,34 @@ import Recipes from './components/Recipes'
 
 function App() {
 
-  const [ isLegalAge, setisLegalAge ] = useState(false)
+  const [ overTwentyOne, setOverTwentyOne ] = useState(false)
+  const [ active, setActive ] = useState(true)
+
+  const isTwentyOne = () => {
+    setOverTwentyOne(true)
+    setActive(false)
+  }
 
   return (
     <Router>
       <div>
-      <Dimmer active={!isLegalAge} page>
+      <Dimmer active={active} page>
         <Header as='h2' inverted>
           Are you over 21 years old?
           <div style={{marginTop: '2rem'}}>
           <Button.Group>
-            <Button color="green" onClick={() => setisLegalAge(true)}>Yes</Button>
+            <Button color="green" onClick={isTwentyOne}>Yes</Button>
             <Button.Or />
-            <Button color="red">No</Button>
+            <Button href="https://www.youtube.com/watch?v=31g0YE61PLQ" color="red">No</Button>
           </Button.Group>
           </div>
-
         </Header>
       </Dimmer>
-      {isLegalAge && <Container><Navbar /></Container>}
-        <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/recipes' component={Recipes} />
-        <Route exact path='/contact' component={Contact} />
+        {overTwentyOne && <Container><Navbar /></Container>}
+        {overTwentyOne && <Route exact path='/' component={Home} /> }
+        {overTwentyOne && <Route exact path='/about' component={About} />}
+        {overTwentyOne && <Route exact path='/recipes' component={Recipes} />}
+        {overTwentyOne && <Route exact path='/contact' component={Contact} />}
       </div>
     </Router>
   );
