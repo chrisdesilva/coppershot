@@ -46,11 +46,12 @@ a {
   margin: auto;
 }
 
+#homePageCards {
+  display: flex;
+  justify-content: center;
+}
+
 #navbar {
   background-color: #CA4A2D;
   margin-bottom: 5rem;
-}
-
-@media (min-width: 1200px) {
-
 }

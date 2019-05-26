@@ -40,7 +40,7 @@ class Contact extends React.Component {
   render() {
     const { name, email, phoneNumber, message, success } = this.state
     return (
-      <Container>
+      <Container style={{height: '70vh'}}>
         <h2>Contact</h2>
         {success && <Message floating success>Thanks for the message! We'll get in touch with you shortly.</Message>}
         <Grid stackable>

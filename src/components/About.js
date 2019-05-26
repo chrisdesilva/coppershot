@@ -3,7 +3,7 @@ import { Container, Grid, Image } from 'semantic-ui-react'
 import todees from '../images/todees.jpg'
 const About = () => {
   return (
-    <Container>
+    <Container style={{height: '70vh'}}>
     <h2>About</h2>
       <Grid>
         <Grid.Row>
