@@ -4,6 +4,7 @@ import { Button, Container, Dimmer, Header } from 'semantic-ui-react'
 import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Recipes from './components/Recipes'
@@ -38,6 +39,7 @@ function App() {
         {overTwentyOne && <Route exact path='/about' component={About} />}
         {overTwentyOne && <Route exact path='/recipes' component={Recipes} />}
         {overTwentyOne && <Route exact path='/contact' component={Contact} />}
+        {overTwentyOne && <Footer />}
       </div>
     </Router>
   );

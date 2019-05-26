@@ -1,11 +1,12 @@
 import React from 'react'
 import { Container, Image } from 'semantic-ui-react'
-import logosign from '../images/logosign.jpg'
+import patio from '../images/patio.jpg'
 
 const Home = () => {
   return (
       <Container>
-        <Image src={logosign} centered fluid />
+      <h1>Copper Shot Distillery</h1>
+        <Image src={patio} centered fluid />
       </Container>
   )
 }
