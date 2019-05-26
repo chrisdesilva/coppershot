@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Container, Image, List } from 'semantic-ui-react'
+import Footer from './Footer'
 import martini from '../images/martini.jpg'
 
 const Recipes = () => {
@@ -84,6 +85,7 @@ const Recipes = () => {
           </Card.Content>
         </Card>
       </Card.Group>
+      <Footer />
     </Container>
   )
 }

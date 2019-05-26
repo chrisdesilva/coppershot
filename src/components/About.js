@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Grid, Image } from 'semantic-ui-react'
+import Footer from './Footer'
 import todees from '../images/todees.jpg'
+
 const About = () => {
   return (
     <Container style={{height: '100vh'}}>
@@ -29,6 +31,7 @@ const About = () => {
           </Grid.Column>
         </Grid.Row>
       </Grid>
+      <Footer />
     </Container>
   )
 }

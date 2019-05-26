@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Container, Image } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 import logosign from '../images/logosign.jpg'
 import patio from '../images/patio.jpg'
 import products from '../images/products.jpg'
@@ -61,6 +62,7 @@ const Home = () => {
             </Card.Content>
           </Card>
         </Card.Group>
+        <Footer />
       </Container>
   )
 }

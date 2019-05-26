@@ -39,7 +39,6 @@ function App() {
         {overTwentyOne && <Route exact path='/about' component={About} />}
         {overTwentyOne && <Route exact path='/recipes' component={Recipes} />}
         {overTwentyOne && <Route exact path='/contact' component={Contact} />}
-        {overTwentyOne && <Footer />}
       </div>
     </Router>
   );

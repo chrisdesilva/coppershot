@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Container, Divider, Form, Grid, Message } from 'semantic-ui-react'
+import Footer from './Footer'
 
 const encode = (data) => {
   return Object.keys(data)
@@ -75,6 +76,7 @@ class Contact extends React.Component {
             </Grid.Column>
           </Grid.Row>
         </Grid>
+        <Footer />
       </Container>
     )
   }
