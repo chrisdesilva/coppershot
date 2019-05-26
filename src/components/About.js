@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Grid, Image } from 'semantic-ui-react'
 import todees from '../images/todees.jpg'
-
 const About = () => {
   return (
     <Container>

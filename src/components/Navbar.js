@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
     <Logobanner />
-        <Menu id="navbar" fluid widths={5} inverted borderless>
+        <Menu id="navbar" fluid widths={4} inverted borderless>
           <Menu.Item fitted to='/'><Link to='/'>Home</Link></Menu.Item>
           <Menu.Item fitted><Link to='/about'>About</Link></Menu.Item>
           <Menu.Item fitted><Link to='/recipes'>Recipes</Link></Menu.Item>

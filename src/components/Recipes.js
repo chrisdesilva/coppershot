@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Container, Grid, Image, List } from 'semantic-ui-react'
+import { Card, Container, Image, List } from 'semantic-ui-react'
 import martini from '../images/martini.jpg'
 
 const Recipes = () => {
