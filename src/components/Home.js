@@ -30,7 +30,7 @@ const Home = () => {
             <Card.Content>
               <Card.Header>Who We Are</Card.Header>
               <Card.Description>
-                Copper Shot Distillery was founded in May 2016 by Stephen and Cheri Todee in Bastrop, Texas. Copper Shot is a small distillery that distills a variety of great tasting spirits.
+                Copper Shot Distillery was founded in May 2016 by Stephen and Cheri Todee in Bastrop, Texas. Copper Shot is a small distillery that produces a variety of great tasting spirits.
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
