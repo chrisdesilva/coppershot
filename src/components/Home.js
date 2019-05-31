@@ -25,7 +25,7 @@ const Home = () => {
       <h1>Copper Shot Distillery</h1>
         <Image style={{marginBottom: '2rem'}} src={patio} centered fluid />
         <Card.Group id="homePageCards">
-          <Card style={style.card}>
+          <Card id="card" style={style.card}>
             <Image style={style.image} fluid src={todees} />
             <Card.Content>
               <Card.Header>Who We Are</Card.Header>
@@ -37,7 +37,7 @@ const Home = () => {
               <Link to='/about'>About Us</Link>
             </Card.Content>
           </Card>
-          <Card style={style.card}>
+          <Card id="card" style={style.card}>
             <Image style={style.image} fluid src={products} />
             <Card.Content>
               <Card.Header>What We Do</Card.Header>
@@ -49,7 +49,7 @@ const Home = () => {
               <Link to='/recipes'>Check out some recipes</Link>
             </Card.Content>
           </Card>
-          <Card style={style.card}>
+          <Card id="card" style={style.card}>
             <Image style={style.image} fluid src={logosign} />
             <Card.Content>
               <Card.Header>Who We Are</Card.Header>

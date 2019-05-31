@@ -37,6 +37,14 @@ a {
   text-transform: uppercase;
 }
 
+#card {
+  transition: all 300ms
+}
+
+#card:hover {
+  transform: scale(1.1)
+}
+
 #footer {
   background-color: #CA4A2D;
   margin-top: 5rem;
