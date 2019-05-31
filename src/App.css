@@ -2,11 +2,11 @@
 
 body {
   font-family: 'Lora', serif;
-  background-color: #ececec;
+  background-color: #f7f5f5;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: 'Pathway Gothic One', sans-serif;
   text-align: center;
 }
@@ -29,6 +29,13 @@ a {
   font-family: 'Pathway Gothic One', sans-serif;
   text-transform: uppercase;
   border: none;
+}
+
+.cardLinks {
+  font-family: 'Lora', serif;
+  text-transform: none;
+  letter-spacing: none;
+  color: #CA4A2D;
 }
 
 .item {
